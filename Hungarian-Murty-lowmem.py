@@ -3,6 +3,7 @@ from copy import copy, deepcopy
 import sys
 #from numpy import *
 import numpy as np
+# (c) 2015 Sandip De (1sandipde@gmail.com)
 
 def main():
   a=np.loadtxt('input.test')
