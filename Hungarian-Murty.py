@@ -5,7 +5,7 @@ import numpy as np
 # (c) 2015 Sandip De (1sandipde@gmail.com)
 
 def main():
-  a=np.loadtxt('tmp')
+  a=np.loadtxt('input.test')
 #  a=np.random.random((100,100))
   costs=k_best_costs(20,a)
   for x in costs:
